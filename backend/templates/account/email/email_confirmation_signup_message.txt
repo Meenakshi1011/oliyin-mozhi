@@ -1,0 +1,8 @@
+Hello {{ user.name }},
+
+Thanks for signing up! Please click the link below to confirm your email:
+
+Confirm Email: {{ activate_url }}
+
+Best regards,  
+Techtalk Team

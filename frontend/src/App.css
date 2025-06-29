@@ -1,0 +1,64 @@
+
+.ql-editor img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto; /* ✅ centers image horizontally */
+}
+.ql-editor {
+  font-size: 1.5rem; /* Equivalent to Tailwind's text-2xl */
+  line-height: 1.75rem; /* Optional: to match Tailwind line height */
+}
+
+
+.ql-editor iframe {
+  width: 100% !important;
+  max-width: 700px;
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
+
+
+.ql-tooltip input {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid orange;
+  width: 250px;
+  outline: none;
+}
+
+.ql-tooltip a.ql-action {
+  margin-left: 10px;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ql-tooltip a.ql-action:hover {
+  text-decoration: underline;
+}
+.ql-tooltip {
+  position: fixed !important; /* prevents clipping in scroll areas */
+  top: 30% !important;         /* adjust this as needed */
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 9999;
+}
+
+
+.ql-container.ql-snow {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

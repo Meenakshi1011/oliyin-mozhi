@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .center {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 4px;
+        }
+
+        .title {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="center">
+    <div class="container">
+        <h1 class="title">Sign in</h1>
+        <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=961330799425-kevtpapu412t54sfc1uj54djn4l1qcf5.apps.googleusercontent.com&redirect_uri=http://localhost:8000/api/v1/auth/google/callback/&response_type=code&scope=email profile openid">Sign in with Google</a>
+        </a>
+    </div>
+</div>
+</body>
+</html>
